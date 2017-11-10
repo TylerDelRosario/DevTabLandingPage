@@ -28,11 +28,15 @@ nav ul {
 	margin-right: 38px;
 }
 
+nav a {
+	color:#0E0B16;
+	text-decoration: none;
+}
+
 nav li {
 	cursor: pointer;
 	text-align: center;
 	background-color:#D7CEC7;
-	color:#0E0B16;
 	padding:10px;
 	width: 80px;
 	font-family: 'Quicksand';
@@ -46,6 +50,10 @@ nav li:hover {
 	background-color:#0E0B16;
 	color:#D7CEC7; 
 	transition: .5s;
+}
+
+nav li:hover a {
+	color:#D7CEC7;
 }
 
 main {
